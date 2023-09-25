@@ -6,6 +6,7 @@ import { HeroDetailComponent } from '../shared/components/hero-detail/hero-detai
 import { MessagesComponent } from '../shared/components/messages/messages.component';
 import { DashboardComponent } from '../shared/components/dashboard/dashboard.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { HeroSearchComponent } from '../shared/components/hero-search/hero-search.component';
 
 
 
@@ -14,7 +15,8 @@ import { AppRoutingModule } from '../app-routing.module';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     CommonModule,
