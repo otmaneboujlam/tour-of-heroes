@@ -4,6 +4,8 @@ import { HeroesComponent } from '../shared/components/heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
 import { HeroDetailComponent } from '../shared/components/hero-detail/hero-detail.component';
 import { MessagesComponent } from '../shared/components/messages/messages.component';
+import { DashboardComponent } from '../shared/components/dashboard/dashboard.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -11,11 +13,13 @@ import { MessagesComponent } from '../shared/components/messages/messages.compon
   declarations: [
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     CommonModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   exports: [
     HeroesComponent,
